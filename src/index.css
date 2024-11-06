@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .text-main {
+    @apply text-green-500
+  }
+  .bg-main {
+    @apply bg-green-500
+  }
+
+}
+.border-gradient {
+  background-image: linear-gradient(to top, #000000, #0000ff);
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+  .adjust {
+    @apply max-w-5xl mx-auto px-4 xl:px-0 py-14 
+  }
+  
+body { 
+  user-select: none;
+}
