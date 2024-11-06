@@ -30,7 +30,7 @@ function Hero() {
     <div className="adjust pt-24 lg:pt-32 pb-24">
     <BlurryCircles />
     <div className="font-semibold text-white flex flex-col items-center">
-        <h1 className="animate-fadedown text-main text-[20vw] lg:text-[15vw] font-main font-bold
+        <h1 className="animate-fadedown mt-9 text-main text-6xl lg:text-[15vw] font-main font-bold
         ">UPSCRAPE</h1>
 
         <h2 className="mb-5 text-center text-2xl md:text-3xl lg:text-7xl">UpWork proposals made <br></br> 
