@@ -2,7 +2,7 @@
 function Stats() {
   return (
 <div>{/* Features */}
-  <div className=" adjust mt-7">
+  <div className=" adjust">
     {/* Grid */}
     <div className="grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
       <div className="lg:col-span-4">
@@ -12,7 +12,7 @@ function Stats() {
             92%
            
           </p>
-          <p className="mt-2 sm:mt-3 text-gray-500 dark:text-neutral-500">of U.S. adults have bought from businesses using Space</p>
+          <p className="mt-2 sm:mt-3 text-gray-300">of U.S. adults have bought from businesses using Space</p>
         </div>
         {/* End Stats */}
       </div>
@@ -22,19 +22,19 @@ function Stats() {
           {/* Stats */}
           <div>
             <p className="text-3xl font-semibold text-main">99.95%</p>
-            <p className="mt-1 text-gray-500 dark:text-neutral-500">in fulfilling orders</p>
+            <p className="mt-1 text-gray-300">in fulfilling orders</p>
           </div>
           {/* End Stats */}
           {/* Stats */}
           <div>
             <p className="text-3xl font-semibold text-main">2,000+</p>
-            <p className="mt-1 text-gray-500 dark:text-neutral-500">partner with Preline</p>
+            <p className="mt-1 text-gray-300">partner with Preline</p>
           </div>
           {/* End Stats */}
           {/* Stats */}
           <div>
             <p className="text-3xl font-semibold text-main">85%</p>
-            <p className="mt-1 text-gray-500 dark:text-neutral-500">this year alone</p>
+            <p className="mt-1 text-gray-300">this year alone</p>
           </div>
           {/* End Stats */}
         </div>
@@ -43,7 +43,12 @@ function Stats() {
     </div>
     {/* End Grid */}
   </div>
-  {/* End Features */}</div>
+  {/* End Features */}
+
+
+    
+  
+  </div>
 
   )
 }

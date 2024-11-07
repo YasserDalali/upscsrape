@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import BlurryCircles from './BlurryCircles';
+/* import Stats from './Stats'; */
 
 
 function Hero() {
@@ -26,36 +27,36 @@ function Hero() {
 <div>
 
   {/* Hero */}
-  <div className="bg-neutral-900 relative z-0">
-    <div className="adjust pt-24 lg:pt-32 pb-24">
+  <div className="relative z-0 min-h-screen flex items-center ">
+    <div className="adjust">
     <BlurryCircles />
-    <div className="font-semibold text-white flex flex-col items-center">
-        <h1 className="animate-fadedown mt-9 text-main text-6xl lg:text-[15vw] font-main font-bold
-        ">UPSCRAPE</h1>
+    <div className="font-semibold text-white flex flex-col items-center gap-44">
+      <div id='heroText'>
+        <h1 className="animate-fadedown
+        
+        
+        text-6xl lg:text-[15vw]
 
-        <h2 className="mb-5 text-center text-2xl md:text-3xl lg:text-7xl">UpWork proposals made <br></br> 
+        font-main
+                ">Up<span className='        bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-700'>Scrape</span></h1>
+
+        <h2 className="text-center text-xl md:text-2xl lg:text-5xl">UpWork proposals made <br></br> 
         <span ref={el}></span>
+        
         </h2>
-    </div>
 
-
-      <div className="max-w-4xl">
-        <p className="mt-5 text-neutral-400 lg:text-md lg:my-10 text-center">
-          Gain a competitive edge by no longer wasting time on ineffective Upwork proposals.
-          Our tool streamlines the process for you, ensuring efficiency.
-          Focus on what matters most—winning projects and growing your business.
-          Save time and maximize your potential with our seamless solution.
-        </p>
       </div>
-      <div className="p-3 my-6 bg-main rounded-xl text-white font-semibold text-xl md:text-1xl w-100 text-center block cursor-pointer hover:scale-105 transition-all hover:shadow-lg hover:shadow-green-800"> START NOW</div>
+    </div>
+
+
     </div>
   
-  
+
   </div>
   
   {/* End Hero */}
   {/* Clients */}
-  <div className="relative overflow-hidden pt-4 bg-neutral-900">
+{/*   <div className="relative overflow-hidden pt-4 ">
     <svg className="absolute -bottom-20 start-1/2 w-[1900px] transform -translate-x-1/2" width={2745} height={488} viewBox="0 0 2745 488" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0.5 330.864C232.505 403.801 853.749 527.683 1482.69 439.719C2111.63 351.756 2585.54 434.588 2743.87 487" className="stroke-neutral-700/50" stroke="currentColor" />
       <path d="M0.5 308.873C232.505 381.81 853.749 505.692 1482.69 417.728C2111.63 329.765 2585.54 412.597 2743.87 465.009" className="stroke-neutral-700/50" stroke="currentColor" />
@@ -88,7 +89,7 @@ function Hero() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
 </div>
 
 

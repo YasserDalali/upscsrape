@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function Steps() {
   return (
 <div>{/* Approach */}
-  <div className="bg-neutral-900 adjust">
+  <div className="adjust">
     {/* Approach */}
     <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
       {/* Title */}
