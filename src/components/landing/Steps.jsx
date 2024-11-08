@@ -30,9 +30,9 @@ function Steps() {
           {/* Item */}
           <div className="flex gap-x-5 ms-1">
             {/* Icon */}
-            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-white">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-main font-semibold text-xs uppercase rounded-full">
+                <span className="flex shrink-0 justify-center items-center size-8 border border-white text-main font-semibold text-xs uppercase rounded-full">
                   1
                 </span>
               </div>
@@ -50,9 +50,9 @@ function Steps() {
           {/* Item */}
           <div className="flex gap-x-5 ms-1">
             {/* Icon */}
-            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-white">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-main font-semibold text-xs uppercase rounded-full">
+                <span className="flex shrink-0 justify-center items-center size-8 border border-white text-main font-semibold text-xs uppercase rounded-full">
                   2
                 </span>
               </div>
@@ -70,9 +70,9 @@ function Steps() {
           {/* Item */}
           <div className="flex gap-x-5 ms-1">
             {/* Icon */}
-            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-white">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-main font-semibold text-xs uppercase rounded-full">
+                <span className="flex shrink-0 justify-center items-center size-8 border border-white text-main font-semibold text-xs uppercase rounded-full">
                   3
                 </span>
               </div>
@@ -90,9 +90,9 @@ function Steps() {
           {/* Item */}
           <div className="flex gap-x-5 ms-1">
             {/* Icon */}
-            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-white">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-main font-semibold text-xs uppercase rounded-full">
+                <span className="flex shrink-0 justify-center items-center size-8 border border-white text-main font-semibold text-xs uppercase rounded-full">
                   4
                 </span>
               </div>
@@ -107,7 +107,7 @@ function Steps() {
             {/* End Right Content */}
           </div>
           {/* End Item */}
-          <Link to="/register" className=" group inline-flex items-center gap-x-2 py-2 px-3 bg-main font-medium text-sm text-neutral-800 rounded-full focus:outline-none" href="#">
+          <Link to="/register" className=" group inline-flex items-center gap-x-2 py-2 px-3 bg-main font-medium text-sm text-white rounded-full focus:outline-none" href="#">
             Start now!
           </Link>
         </div>

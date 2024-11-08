@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        blob: "blob 6s infinite",
-        blob2: "blob2 6s infinite",
+        blob: "blob 5s infinite",
+        blob2: "blob2 5s infinite",
         fadedown: "fadedown 1s ease-in-out",
       },
       keyframes: {
@@ -19,12 +19,12 @@ export default {
         },
         blob: {
           "0%": { transform: "scale(1)" },
-          "30%": { transform: "scale(1.2) translate(50%, 25%)" },
+          "30%": { transform: "scale(1.2) translate(10%, 15%)" },
           "100%": { transform: "scale(1)" },
         },
         blob2: {
           "0%": { transform: "scale(1)" },
-          "30%": { transform: "scale(1.2) translate(-50%, -25%)" },
+          "30%": { transform: "scale(1.2) translate(-10%, -15%)" },
           "100%": { transform: "scale(1)" },
         },
       },

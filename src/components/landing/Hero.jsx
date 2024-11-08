@@ -35,7 +35,7 @@ function Hero() {
         <h1 className="animate-fadedown
         
         
-        text-6xl lg:text-[15vw]
+        text-[15vw]
 
         font-main
                 ">Up<span className='        bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-700'>Scrape</span></h1>
