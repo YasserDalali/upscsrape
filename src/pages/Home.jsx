@@ -38,7 +38,7 @@ function Home() {
   };
 
   return (
-    <div className="bg-neutral-900 bg-[url('../../../public/bg.svg')] bg-repeat bg-center bg-opacity-95">
+    <div className="bg-neutral-900 bg-[url('./src/bg.svg')]  bg-repeat bg-center bg-opacity-95">
       <NavBar />
       <Hero />
       <Section><Stats /></Section>

@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family: "Poppins";
-  src:local("Poppins"),
-  url('../../public/Poppins/Poppins-Regular.ttf') format("truetype");
-}
+
 
 body { 
   user-select: none;
@@ -21,8 +17,6 @@ body {
 
   .bg-main {
     @apply bg-green-500
-  }
-  .font-main {
   }
 
 }
